@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Enigma OverMind</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Comic Sans MS", sans-serif
+    }
+    .hideAll{
+      display: none;
+    }
+  </style>
+</head>
+<body style="background-image: url(schoolBoard.png); width: 100%;">
+    <div>
+        <h4 class="w3-center w3-text-black">Stage <a href="gfsaawffs5" style="text-decoration: none">4</a></h4>
+    </div>
+    <div class="w3-center" style="font-size: 50px">
+        <h1 style="margin-top: 220px;">Vai uma Matemática?</h1><br>
+        <h3>Pergunta - Quanto é 2 + 2:</h3><br><br>
+        <form style="margin-left: 6%">
+            <span style="cursor: pointer"> 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span style="cursor: pointer"> 94 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span style="cursor: pointer"> 282 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span style="cursor: pointer"> 0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        </form> 
+    </div>
+</body>
+</html>

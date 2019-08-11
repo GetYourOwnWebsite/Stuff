@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Enigma OverMind</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Comic Sans MS", sans-serif
+    }
+    .hideAll{
+      display: none;
+    }
+  </style>
+</head>
+<body>
+    <div>
+        <h4 class="w3-center">Stage 2</h4>
+    </div>
+    <p class="hideAll" id="Very good!">A Password para a stage 3 é "stage 3"</p>
+    <p class="hideAll">PS: Não fiquem triggred :)</p>
+    <h1 class="w3-center" style="margin-top: 350px" >9 14 19 16 5 3 9 15 14 1 18 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 19 20 15</h1>
+    <div><br><br><br><br><br><br><br><br><br></div>
+    <div class="w3-center" id="password">
+        <input placeholder="Password" id="answer" style="text-indent: 5px" type="text">
+        <input type="submit" value="Verificar" onclick="checkanswer()"></input>
+        <h4 id="nop" style="display: none">Errado.</h4>
+    </div>
+<script>
+    function checkanswer(){
+      var answer = document.querySelector("#answer").value;
+      
+      if (answer == "stage 3" || answer == "Stage 3" || answer == "STAGE 3") {
+          window.location.href = "ikwahuih3";
+      }
+      else {
+          document.getElementById("nop").style.display = "block";
+      setTimeout(function(){
+  document.getElementById("nop").style.display = "none";
+    }, 1200);
+      }
+  }
+</script>
+</body>
+</html>

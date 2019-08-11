@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <title>Enigma OverMind</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Comic Sans MS", sans-serif
+    }
+    .hideAll{
+      display: none;
+    }
+  </style>
+</head>
+<body style="background-image: url(backgroundUrl.jpg); background-size: auto">
+        <div>
+            <h4 class="w3-center w3-text-black">Stage 3</h4>
+        </div>
+        <h1 class="w3-center" style="margin-top: 350px; font-size: 100px;color: rgb(0, 0, 0)">_stage4</h1>
+        
+</body>
+</html>
